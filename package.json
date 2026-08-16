@@ -9,12 +9,14 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest"
-
   },
   "dependencies": {
+    "@tanstack/react-query": "^5.101.4",
     "install": "^0.13.0",
+    "pwd": "^1.1.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
+    "react-router": "^8.3.0",
     "zod": "^4.4.3"
   },
   "devDependencies": {
