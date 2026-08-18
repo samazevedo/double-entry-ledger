@@ -5,6 +5,7 @@ import { Dashboard } from './pages/Dashboard';
 import { JournalEntries } from './pages/JournalEntries';
 import { Ledger } from './pages/Ledger';
 import { Reports } from './pages/Reports';
+import { Settings } from './pages/Settings';
 export const App = () => {
   return (
     <Routes>
@@ -14,6 +15,7 @@ export const App = () => {
         <Route path="/journal-entries" element={<JournalEntries />} />
         <Route path="/general-ledger" element={<Ledger />} />
         <Route path="/reports" element={<Reports />} />
+        <Route path="/settings" element={<Settings />} />
       </Route>
     </Routes>
   );
