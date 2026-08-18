@@ -43,7 +43,7 @@
 //  /**
 //    * Validates the draft through the core's `postEntry` and, only if it balances,
 //    * records it. Returns the Result so the caller can surface any error — the
-//    * component never re-implements the double-entry rule, it just reports it. 
+//    * component never re-implements the double-entry rule, it just reports it.
 //  */
 //     readonly recordEntry:(
 //         entry: JournalEntry,
